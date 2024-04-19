@@ -23,7 +23,7 @@ var beepbox;
 (function (beepbox) {
     class Config {
     }
-    Config.versionDisplayName = "Modbox 3.3 BETA";
+    Config.versionDisplayName = "a-tablebox 3.3 BETA";
     Config.scales = toNameMap([
         { name: "easy :)", flags: [true, false, true, false, true, false, false, true, false, true, false, false] },
         { name: "easy :(", flags: [true, false, false, true, false, true, false, true, false, false, true, false] },
@@ -53,8 +53,8 @@ var beepbox;
         { name: "A", isWhiteKey: true, basePitch: 21 },
         { name: "A♯", isWhiteKey: false, basePitch: 22 },
         { name: "B", isWhiteKey: true, basePitch: 23 },
-        { name: "B7", isWhiteKey: true, basePitch: 40 },
-        { name: "B♯", isWhiteKey: false, basePitch: 24 },
+        { name: "atable custom(b7)", isWhiteKey: true, basePitch: 40 },
+        { name: "atable custom(b♯)", isWhiteKey: false, basePitch: 24 },
     ]);
     Config.blackKeyNameParents = [-1, 1, -1, 1, -1, 1, -1, -1, 1, -1, 1, -1];
     Config.tempoMin = 30;
